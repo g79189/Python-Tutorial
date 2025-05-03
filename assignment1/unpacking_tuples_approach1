@@ -1,0 +1,7 @@
+def high_scores(student_scores):
+    # unpacking tuple
+  return[students for students,score in student_scores if score >70]
+
+students=[('Alice',85),('Bob',65),('Charlie',90),("David",70)]
+
+print(high_scores(students))
