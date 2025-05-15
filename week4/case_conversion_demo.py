@@ -1,1 +1,10 @@
-
+text = "Hello, World!"
+upper_case = text.upper()
+lower_case = text.lower()
+title_case = text.title()
+capitalize_case = text.capitalize()
+print("Original text:", text)
+print("Upper case:", upper_case)
+print("Lower case:", lower_case)
+print("Title case:", title_case)
+print("Capitalize case:", capitalize_case)
